@@ -1,0 +1,19 @@
+[project]
+name = "autocable"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "hannesathitachirail", email = "hannes.vanzyl@hitachirail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ezdxf>=1.4.5",
+]
+
+[project.scripts]
+autocable = "autocable:main"
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"
